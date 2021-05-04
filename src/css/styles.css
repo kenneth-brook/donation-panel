@@ -1,5 +1,5 @@
 .mainWrap {
-    width: 60%;
+    width: 65%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -14,9 +14,38 @@
 .topRight, .topLeft {
     width: 48%;
     background-color: white;
-    min-height: 300px;
     border: 1px solid #444444;
     border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tRow, .cRow, .bRow {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.tRow {
+    background-color: #003A67;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-top: 20px;
+}
+
+.tRow h4 {
+    color: white;
+    font-size: 2rem;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+}
+
+.cRow, .bRow {
+    padding: 20px 0;
 }
 
 .bottomBox {
@@ -26,4 +55,31 @@
     min-height: 400px;
     border: 1px solid #444444;
     border-radius: 15px;
+}
+
+.bottomBox .tRow {
+    width: 95%;
+}
+
+.formB {
+    border: none;
+    border-radius: 10px;
+    background-color: #00A1ED;
+    padding: 10px 0;
+    color: white;
+    font-size: 1.4rem;
+    width: 70%;
+}
+
+.topRight .cRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.topRight .cRow .formB {
+    width: 22.5%;
+}
+
+.bRow {
+    border-top: 1px solid #444444;
 }
