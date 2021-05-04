@@ -1,0 +1,29 @@
+.mainWrap {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.topWrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.topRight, .topLeft {
+    width: 48%;
+    background-color: white;
+    min-height: 300px;
+    border: 1px solid #444444;
+    border-radius: 15px;
+}
+
+.bottomBox {
+    width: 100%;
+    margin-top: 30px;
+    background-color: white;
+    min-height: 400px;
+    border: 1px solid #444444;
+    border-radius: 15px;
+}
